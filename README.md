@@ -50,3 +50,11 @@ Si no funciona el comando anterior, se puede ejecutar desde python con el siguie
 ```python3.9 -m pytest --cov=. test.py --cov-report html```
 
 Ya con el reporte generado, se debe haber creado una carpeta llamada ```htmlcov```, dentro de ésta se muestrá un archivo ```index.html```, al abrirlo se mostrará la cobertura de codigo a través de los tests.
+
+
+## Extensiones para verificar código limpio
+En esta sección se propondran extensiones/plugins que pueden instalar para verificar que cumplen con parte de las buenas prácticas del codigo limpio (clean code)
+
+* SonarLint: Extensión para encontrar y corregir problemas de codificación en tiempo real, marcando los problemas a medida que codifica, similar a un corrector ortográfico. Se puede instalar como un plugin en Intellij o como extensión en Visual Studio Code.
+* Code Spell Checker: Extensión que ayuda a detectar nombres de variables que puedan tener algun problema de nombre ya sea por falta ortográfica o por incoherencia. Se puede instalar en Visual Studio Code en muchos idiomas incluyendo Español. En Intellij viene por defecto.
+  
